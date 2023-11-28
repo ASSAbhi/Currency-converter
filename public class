@@ -1,0 +1,13 @@
+public class CurrencyConverter {
+
+    private static final Map<String, Double> exchangeRates = new HashMap<>();
+
+    static {
+        // Define exchange rates (e.g., 1 unit of the currency to other currencies)
+        exchangeRates.put("USD", 1.0); // United States Dollar
+        exchangeRates.put("EUR", 0.85); // Euro
+        exchangeRates.put("GBP", 0.75); // British Pound Sterling
+        exchangeRates.put("JPY", 110.0); // Japanese Yen
+        exchangeRates.put("AUD", 1.35); // Australian Dollar
+        exchangeRates.put("INR", 75.0); // Indian Rupee
+    }
